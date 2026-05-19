@@ -1,6 +1,6 @@
 /** Fallback matcher when a product has no image URL (e.g. new items from the form). */
 
-import { imageUrlForCategoryLabel, imageUrlForKey } from "../data/catalogImages.js";
+import { imageUrlForCategoryLabel, imageUrlForKey } from "../Data/catalogImages.js";
 
 const RULES = [
   { anyOf: ["puffer", "quilted jacket"], imageKey: "jacket-puffer" },

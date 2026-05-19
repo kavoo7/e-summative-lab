@@ -2,8 +2,8 @@ import React, { useState, useEffect, useMemo } from "react";
 import { useId } from "react";
 import { Link } from "react-router-dom";
 import { useProducts } from "../context/ProductContext";
-import { imageUrlForKey } from "../data/catalogImages";
-import { HOME_FEATURE, HOME_HERO } from "../data/homeFeature";
+import { imageUrlForKey } from "../Data/catalogImages";
+import { HOME_FEATURE, HOME_HERO } from "../Data/homeFeature";
 import { resolveProductImageUrl } from "../utils/productImages";
 
 function ColorWash({ className = "left-0 top-0 w-64 h-64 bg-blush/30" }) {

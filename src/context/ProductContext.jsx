@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useMemo, useState } from "react";
-import { MOCK_PRODUCTS } from "../data/mockCatalog.js";
+import { MOCK_PRODUCTS } from "../Data/mockCatalog.js";
 
 const ProductContext = createContext(null);
 

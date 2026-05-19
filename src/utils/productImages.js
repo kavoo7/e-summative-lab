@@ -2,7 +2,7 @@ import { getProductImageUrl as matchImageFromText } from "./productImageMatch.js
 
 const INVALID_IMAGE_URLS = new Set(["https://unsplash.com", "http://unsplash.com"]);
 
-import { imageUrlForCategoryLabel } from "../data/catalogImages.js";
+import { imageUrlForCategoryLabel } from "../Data/catalogImages.js";
 
 const DEFAULT_IMAGE =
   imageUrlForCategoryLabel("Tops") ??
